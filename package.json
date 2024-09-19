@@ -2,6 +2,7 @@
   "name": "multi-condition",
   "version": "1.0.0",
   "license": "MIT",
+  "description": "TS and JS React component for multi-condition rendering. Perfect alternative for ternary operator. It's more readable and easier to maintain.",
   "author": {
     "name": "Stanislaw Jarocki"
   },
