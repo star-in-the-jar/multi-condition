@@ -1,7 +1,26 @@
 {
-  "name": "react-if",
+  "name": "multi-condition",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Stanislaw Jarocki"
+  },
+  "keywords": [
+    "multi-condition",
+    "react",
+    "typescript",
+    "node",
+    "nodejs",
+    "javascript",
+    "node",
+    "jsx",
+    "tsx",
+    "switch",
+    "ternary",
+    "improved",
+    "component",
+    "condition"
+  ],"main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
