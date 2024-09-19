@@ -1,4 +1,4 @@
-import React, { Children, isValidElement, ReactNode } from 'react';
+import React, { Children, isValidElement } from 'react';
 import { ElseProps, IfProps, ShowProps } from './Show.types';
 
 const Show = ({ children }: ShowProps) => {
