@@ -1,0 +1,50 @@
+{
+  "name": "multi-condition",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "React component for multi-condition rendering. Perfect alternative for ternary operator. It's more readable and easier to maintain. Supports TypeScript.",
+  "author": {
+    "name": "Stanislaw Jarocki"
+  },
+  "keywords": [
+    "multi-condition",
+    "react",
+    "typescript",
+    "node",
+    "nodejs",
+    "javascript",
+    "node",
+    "js",
+    "ts",
+    "jsx",
+    "tsx",
+    "switch",
+    "ternary",
+    "improved",
+    "component",
+    "condition"
+  ],"main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.0.1"
+  }
+}
