@@ -1,6 +1,6 @@
 {
   "name": "multi-condition",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "React component for multi-condition rendering. Perfect alternative for ternary operator. It's more readable and easier to maintain. Supports TypeScript.",
   "author": {
