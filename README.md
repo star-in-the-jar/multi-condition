@@ -18,7 +18,7 @@ Can be replaced with:
 import { Show, If, Else } from 'react-if';
 
 <Show>
-  <If condition={true}>
+  <If condition={condition}>
     <ConditionTrue />
   </If>
   <Else>
@@ -75,17 +75,12 @@ Can be replaced with:
 Or this (same thing, less nesting):
 ```jsx
 <Show>
-  <Show>
-    <If condition={firstCondition && SecondCondition}>
-      <FirstConditionTrueSecondTrue />
-    </If>
-    <If condition={firstCondition && !SecondCondition}>
-      <FirstConditionTrueSecondFalse />
-    </If>
-    <Else>
-      <FirstConditionTrueSecondFalse />
-    </Else>
-  </Show>
+  <If condition={firstCondition && SecondCondition}>
+    <FirstConditionTrueSecondTrue />
+  </If>
+  <If condition={firstCondition && !SecondCondition}>
+    <FirstConditionTrueSecondFalse />
+  </If>
   <Else>
     <FirstConditionFalse />
   </Else>
