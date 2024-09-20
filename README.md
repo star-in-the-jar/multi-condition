@@ -129,7 +129,7 @@ import * as Show from 'react-if'
 ```
 
 # Developing
-You can freely clone this repository, create feature branch and run:
+You can freely clone this repository, create feature branch (e.g. feature/some-name) and run:
 ```bash
 npm install
 ```
