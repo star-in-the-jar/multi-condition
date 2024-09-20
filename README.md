@@ -127,3 +127,19 @@ import * as Show from 'react-if'
   </Show.Else>
 </Show.Show>
 ```
+
+# Developing
+You can freely clone this repository, create feature branch and run:
+```bash
+npm install
+```
+Make some changes that fit you and test it with:
+```bash
+npm run build
+npm link
+```
+And in another local project where you want to use the package run:
+```bash
+npm link multi-condition
+```
+If everything works you can create pull request targeted to develop with your suggested changes.
