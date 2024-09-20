@@ -15,7 +15,7 @@ For example this:
 
 Can be replaced with:
 ```jsx
-import { Show, If, Else } from 'react-if';
+import { Show, If, Else } from 'multi-condition';
 
 <Show>
   <If condition={condition}>
@@ -111,7 +111,7 @@ Additionally, this component presents new option to show more than one branch at
 
 Of course if you prefer you can also import `If`, `Else` and `Show` components together:
 ```jsx
-import * as Show from 'react-if'
+import * as Show from 'multi-condition';
 
 <Show.Show>
   <Show.If condition={true}>
