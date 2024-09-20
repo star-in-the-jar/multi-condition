@@ -1,4 +1,11 @@
-# A component that replaces and extends use of ternary operator in JSX.
+# Getting started
+To install package from npm registry run:
+```bash
+npm install multi-condition
+```
+
+# How it works?
+A component that replaces and extends use of ternary operator in JSX.
 
 ## Substitute `A ? B : C`
 For example this:
